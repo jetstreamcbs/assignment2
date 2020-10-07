@@ -1,0 +1,52 @@
+Git Lab Tutorials completed on 10/06/2020.
+GitHub account created around 04/01/2018 (rough estimate).
+
+1)	On branch master
+		Your branch is up to date with 'origin/master'.
+
+		nothing to commit, working tree clean
+
+2) 	There have been 9 commits total
+		command used: git rev-list --all --count
+
+3)	Tue Oct 6 20:30:40 2020
+		command used: git log
+
+4) Two reasons branches are used:
+		1. 	To always have a copy of the master (base code) in case
+				something goes wrong in another branch.
+		2.	If the client likes an implementation of an earlier
+				version of the program, we can always grab the older
+				code of that program from another branch.
+
+5)	git log would show a history of commits of the repository.
+		git status, on the other hand, shows the status of your local
+		working tree compared to the remote one.
+
+6) 	One way to see if "Vehicle.h" was one of the committed files
+		before pushing, is using git status.
+
+7)	Use git log --all --grep='file' to see the commits whose
+		commit message contains the word "file".
+
+8)	I.		Inheritance is when a class is derived from another class
+					for a hierarchy of classes that share a set of attributes
+					and methods.
+		II.		Polymorphism is when objects of different types can be
+					accessed through the same interface.
+		III.	Encapsulation is the idea of bundling data and methods
+					that work on that data within one unit (such as a class).
+
+9)	The main difference between the workflows is that in the
+		integration manager workflow the developers push changes
+		to their own public repository while developers in the
+		other workflow push changes straight to a lieutenant
+		repository.
+
+10)	The Dictator and Lieutenant workflow would be better for a
+		larger team because individual developers would not have to
+	 	to resolve any conflicts before merging themselves. The Lieutenant
+		and Dictator repositories would do that for them. Trying to
+		collaborate with 100 other developers to figure out the merge
+		conflicts with the Centralized Workflow would be a large waste
+		of time. The Dictator and Lieutenant workflow would be better.
