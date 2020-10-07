@@ -9,15 +9,16 @@ GitHub account created around 04/01/2018 (rough estimate).
 2) 	There have been 9 commits total
 		command used: git rev-list --all --count
 
-3)	Tue Oct 6 20:30:40 2020
+3)	README.md was last modified on Tue Oct 6 20:30:40 2020
 		command used: git log
 
 4) Two reasons branches are used:
 		1. 	To always have a copy of the master (base code) in case
-				something goes wrong in another branch.
+				something goes wrong in another branch and you need to
+				start from scratch.
 		2.	If the client likes an implementation of an earlier
 				version of the program, we can always grab the older
-				code of that program from another branch.
+				code of that program from the designated branch.
 
 5)	git log would show a history of commits of the repository.
 		git status, on the other hand, shows the status of your local
@@ -30,7 +31,7 @@ GitHub account created around 04/01/2018 (rough estimate).
 		commit message contains the word "file".
 
 8)	I.		Inheritance is when a class is derived from another class
-					for a hierarchy of classes that share a set of attributes
+					from a hierarchy of classes that share a set of attributes
 					and methods.
 		II.		Polymorphism is when objects of different types can be
 					accessed through the same interface.
